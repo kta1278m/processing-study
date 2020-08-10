@@ -4,5 +4,5 @@ void setup(){
 void draw(){
   float rx = random(0 , 800);
   float ry = random(0 , 500);
-  ellipse(rx, ry, 100 ,100);
+  ellipse(mouseX, mouseY, 100 ,100);
 }
